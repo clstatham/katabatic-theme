@@ -1,0 +1,22 @@
+{
+  "name": "katabatic-theme",
+  "displayName": "katabatic-theme",
+  "description": "Pastel theme with the color choices inspired by One Dark Pro",
+  "version": "0.0.1",
+  "publisher": "clstatham",
+  "engines": {
+    "vscode": "^1.91.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "katabatic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/katabatic-color-theme.json"
+      }
+    ]
+  }
+}
